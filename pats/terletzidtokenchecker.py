@@ -6,14 +6,6 @@ init(autoreset=True)
 ascii_banner0 = pyfiglet.figlet_format("Enter  code  :")
 print(ascii_banner0)
 
-question = input("Enter activation code: ")
-start_over = 10
-if question == "ABC-TLT2021":
-    start_over -= 1
-    print("")
-else:
-    raise SystemExit
-# activated
 print('Contact: invite.gg/Maple')
 print('Contact: invite.gg/MapleDev')
 
